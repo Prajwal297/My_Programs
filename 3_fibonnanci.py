@@ -1,7 +1,6 @@
 #program to print fibonnanci series!!
 n=int(input("enter the term:"))
 def fib(n) :
-
     x=0
     y=1
     if n<=0:
