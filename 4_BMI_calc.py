@@ -1,6 +1,5 @@
 que = input("do you want to calculate BMI in metric system??")
-yes=True
-if que==yes:
+if que=="yes" or "Yes":
    h = float(input("enter your height( in meters)"))
    w = float(input("enter your weight (in kilograms)"))
    BMI= w/(h**2)
