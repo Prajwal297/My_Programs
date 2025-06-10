@@ -5,6 +5,6 @@ def fact(n):
         return n*fact(n-1)
 print()
 n=int(input("enter the value :"))
-An=fact(n)
-print("The factorial value is ",An)
+Ans=fact(n)
+print("The factorial value is ",Ans)
     
