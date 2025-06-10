@@ -1,5 +1,7 @@
 def fact(n):
-    if n==0 or n==1 :
+    if n<0:
+        print ("Negative numbers are not valid , Please enter a valid number!!")
+    elif n==0 or n==1 :
         return 1
     else:
         return n*fact(n-1)
