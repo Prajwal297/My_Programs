@@ -7,6 +7,6 @@ def sum(n):
         return  n+sum(n-1)
 print ("the sum of numbers is",sum)
 print()
-n=int(input("enter the value :"))
-print("the sum is",sum(n))
+n=float(input("enter the value :"))
+print(f"summation will be: ₹{sum(n):.2f}")
 
